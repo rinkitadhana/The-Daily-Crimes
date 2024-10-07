@@ -6,9 +6,9 @@ const News = () => {
     <div className="">
       <News1 />
       <hr className="border-t-2  border-zinc-800" />
-      <div className=" flex items-center  gap-">
+      <div className=" flex items-center">
         <div className=" text-9xl  font-Canopee text-center bg-zinc-800 w-full my-10 text-[#E9E4DB] p-2">
-          Are We Truly Safe from Crime?
+          <p>Are We Truly Safe from Crime?</p>
         </div>
       </div>
       <hr className="border-t-2 mb-6 border-zinc-800" />

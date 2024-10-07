@@ -48,6 +48,7 @@ const Screen: React.FC<Props> = ({ children }) => {
       {
         y: -1100,
         duration: 1,
+
         ease: "power4.out",
       }
     )
@@ -66,7 +67,7 @@ const Screen: React.FC<Props> = ({ children }) => {
           <div className=" border-2 py-2 px-4 rounded-xl flex flex-col items-center gap-4 m-2 md:w-1/3 bg-zinc-700 text-white">
             <p className=" text-center font-semibold">
               Hey, I'm currently working on the mobile version of this website.
-              I urge you to open this website on your desktop.
+              I urge you to open the website on your desktop.
             </p>
             <a
               className=" border-2 rounded-lg px-3 bg-zinc-700 text-lg text-white"
