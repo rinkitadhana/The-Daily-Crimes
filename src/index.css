@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-zinc-800;
+}
+@font-face {
+  font-family: "OldLondon";
+  src: url("./assets/fonts/OldLondon.ttf");
+}
+@font-face {
+  font-family: "TimesNewRoman";
+  src: url("./assets/fonts/times-new-roman.ttf");
+}
+@font-face {
+  font-family: "Impact";
+  src: url("./assets/fonts/impact.ttf");
+}
+@font-face {
+  font-family: "Canopee";
+  src: url("./assets/fonts/Canopee-regular.otf");
+}
+@font-face {
+  font-family: "EditorialNew";
+  src: url("./assets/fonts/PPEditorialNew-Regular-BF644b214ff145f.otf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("./assets/fonts/Helvetica.ttf");
+}
+@font-face {
+  font-family: "Arial";
+  src: url("./assets/fonts/ARIAL.TTF");
+}
+
+/* #c3bcb2 */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 90px;
+  border-top: 2px solid #1b1b1b;
+  border-bottom: 2px solid #1b1b1b;
+  margin-top: 20px;
+
+  font-family: "TimesNewRoman";
+}
+
+.marquee {
+  animation: marquee 10s linear infinite;
+  @apply font-medium;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
+}
+
+.marquee a {
+  text-decoration: none;
+  background: #000;
+
+  @apply px-3 py-1 cursor-pointer;
+  color: #d3cfc6;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.high {
+  float: left;
+  margin-right: 10px;
+  font-weight: bold;
+  background: #222222;
+  color: #d3cfc6;
+  @apply px-4 text-7xl font-bold font-TimesNewRoman;
+}
+
+h1 {
+  @apply text-start font-bold font-TimesNewRoman;
+}
