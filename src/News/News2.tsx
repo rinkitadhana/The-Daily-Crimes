@@ -152,7 +152,7 @@ const News2 = () => {
           <div className=" text-justify basis-2/5 border-2 border-zinc-700 p-2 flex flex-col gap-4">
             <div>
               <img
-                src="/IMG/pm-modi.avif"
+                src="/IMG/crimeGIFS/pm.gif"
                 alt="news_img"
                 className=" object-cover grayscale"
               />
