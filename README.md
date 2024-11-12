@@ -135,7 +135,7 @@ Contributions are always welcome!
 <!-- Contact -->
 ##  Contact
 
-Rinkit Adhana - [@twitter_handle](https://twitter.com/damnGruz) - therinkit@gmail.com
+Rinkit Adhana - [@damnGruz](https://twitter.com/damnGruz) - therinkit@gmail.com
 
-The Daily Crimes - [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
+The Daily Crimes - [https://thedailycrimes.vercel.app/](https://thedailycrimes.vercel.app)
 
