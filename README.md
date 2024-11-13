@@ -45,11 +45,11 @@
 <!-- Table of Contents -->
 #  Table of Contents
 
-- [About the Project](about-the-project)
+- [About the Project](#about-the-project)
   * [Screenshots](#screenshots)
   * [Tech Stack](#tech-stack)
   * [Features](#features)
-- [Getting Started](getting-started)
+- [Getting Started](#getting-started)
   * [Run Locally](#run-locally)
 - [Contributing](#contributing)
 - [Contact](#contact)
