@@ -137,5 +137,5 @@ Contributions are always welcome!
 
 Rinkit Adhana - [@damnGruz](https://twitter.com/damnGruz) - therinkit@gmail.com
 
-The Daily Crimes - [https://thedailycrimes.vercel.app/](https://thedailycrimes.vercel.app)
+Portfolio - [therinkit.online](https://therinkit.online)
 
