@@ -77,6 +77,8 @@
         <li><a href="">React.js</a></li>
         <li><a href="">Typescript</a></li>
         <li><a href="">TailwindCSS</a></li>
+        <li><a href="">GSAP</a></li>
+
   </ul>
 </details>
 
