@@ -1,4 +1,4 @@
-import Slider from "../Components/Slider"
+import Slider from "./Slider"
 
 const Footer = () => {
   return (

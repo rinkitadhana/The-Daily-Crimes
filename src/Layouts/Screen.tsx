@@ -38,28 +38,31 @@ const Screen: React.FC<Props> = ({ children }) => {
   const timeline = gsap.timeline({
     delay: 1,
   })
-  useGSAP(() => {
-    timeline.fromTo(
-      "#screen",
-      {
-        y: 0,
-        duration: 1,
-      },
-      {
-        y: -1100,
-        duration: 1,
+  if (!isSmallScreen) {
+    useGSAP(() => {
+      timeline.fromTo(
+        "#screen",
+        {
+          y: 0,
+          duration: 1,
+        },
+        {
+          y: -1100,
+          duration: 1,
 
-        ease: "power4.out",
-      }
-    )
-    timeline.to("#screen", {
-      scale: 1,
-      y: 0,
-      duration: 2.5,
-      rotation: -360,
-      ease: "power4.inOut",
-    })
-  }, [])
+          ease: "power4.out",
+        }
+      )
+      timeline.to("#screen", {
+        scale: 1,
+        y: 0,
+        duration: 2.5,
+        rotation: -360,
+        ease: "power4.inOut",
+      })
+    }, [])
+  }
+
   return (
     <div>
       {isSmallScreen && (
@@ -81,7 +84,7 @@ const Screen: React.FC<Props> = ({ children }) => {
 
       <div
         id="screen"
-        className="bg-[url('../public/bg/texture.jpg')] font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800 scale-[40%]"
+        className="bg-[url('../public/bg/texture.jpg')] md:w-[1500px] w-[1500px] mx-auto font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800 scale-[40%]"
       >
         {children}
       </div>
