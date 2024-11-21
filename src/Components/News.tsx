@@ -1,6 +1,6 @@
-import News1 from "../News/News1"
-import News2 from "../News/News2"
-import News3 from "../News/News3"
+import News1 from "./News/News1"
+import News2 from "./News/News2"
+import News3 from "./News/News3"
 const News = () => {
   return (
     <div className="">
