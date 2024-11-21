@@ -1,6 +1,6 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import { ReactNode, useEffect, useState } from "react"
+import { ReactNode, useEffect } from "react"
 
 type Props = {
   children: ReactNode
