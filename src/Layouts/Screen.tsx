@@ -84,7 +84,7 @@ const Screen: React.FC<Props> = ({ children }) => {
 
       <div
         id="screen"
-        className="bg-[url('../public/bg/texture.jpg')] md:w-[1500px] w-[1500px] mx-auto font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800 scale-[40%]"
+        className="bg-[url('../public/bg/texture.jpg')] md:w-[1540px] w-[1500px] mx-auto font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800 scale-[40%]"
       >
         {children}
       </div>
