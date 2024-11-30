@@ -3,7 +3,6 @@ import News from "../Components/News"
 import Top from "../Components/Top"
 import Footer from "../Components/Footer"
 import Screen from "./../Layouts/Screen"
-
 const Home = () => {
   return (
     <Screen>
