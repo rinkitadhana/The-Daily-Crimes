@@ -74,7 +74,7 @@ body {
 .marquee a {
   text-decoration: none;
   background: #000;
-  @apply px-3 py-1 cursor-pointer;
+  @apply px-3 py-1 cursor-pointer hover:bg-zinc-800 transition-colors duration-300;
   color: #d3cfc6;
 }
 

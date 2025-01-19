@@ -1,9 +1,12 @@
 const Slider = () => {
   return (
-    <div className=" marquee-container">
+    <div className=" marquee-container select-none">
       <div className="marquee">
-        Let's Create Something Together{" "}
-        <a href="mailto:therinkit@gmail.com">Email ME</a>.
+        Together, We Can Transform Our Nation,{" "}
+        <a target="_blank" href="https://x.com/damnGruz">
+          Follow Me
+        </a>
+        .
       </div>
     </div>
   )
