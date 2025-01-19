@@ -1,7 +1,7 @@
 const Head = () => {
   return (
-    <>
-      <div className="flex items-center">
+    <div className=" select-none">
+      <div className=" flex items-center">
         <div className="flex-grow space-y-0.5">
           <hr className="border-t-[5px] border-black/85" />
           <hr className="border-t-[2px] border-black/90" />
@@ -28,7 +28,7 @@ const Head = () => {
         <hr className="border-t-[2px] border-black/90" />
         <hr className="border-t-[5px] border-black/85" />
       </div>
-    </>
+    </div>
   )
 }
 
