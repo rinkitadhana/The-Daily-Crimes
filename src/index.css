@@ -108,5 +108,5 @@ h1 {
 }
 
 .screen {
-  @apply bg-[url('../public/bg/texture.jpg')] md:max-w-[1536px]  md:w-full w-[1400px] mx-auto font-EditorialNew p-4 min-h-screen text-zinc-800;
+  @apply bg-[url('../public/bg/texture.jpg')] md:max-w-[1536px]  md:w-full w-[1400px] mx-auto font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800;
 }
