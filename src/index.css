@@ -5,6 +5,9 @@
 body {
   @apply bg-zinc-900;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 ::selection {
   background: #fdff32;
