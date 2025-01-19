@@ -5,6 +5,17 @@
 body {
   @apply bg-zinc-900;
 }
+
+::selection {
+  background: #fdff32;
+  color: #000;
+}
+
+/* For better cross-browser support */
+::-moz-selection {
+  background: #fdff32;
+  color: #000;
+}
 @font-face {
   font-family: "OldLondon";
   src: url("./assets/fonts/OldLondon.ttf");
@@ -63,7 +74,6 @@ body {
 .marquee a {
   text-decoration: none;
   background: #000;
-
   @apply px-3 py-1 cursor-pointer;
   color: #d3cfc6;
 }
@@ -88,4 +98,8 @@ body {
 
 h1 {
   @apply text-start font-bold font-TimesNewRoman;
+}
+
+.screen {
+  @apply bg-[url('../public/bg/texture.jpg')] md:max-w-[1600px] md:w-full w-[1200px] mx-auto font-EditorialNew p-4 min-h-screen text-zinc-800 scale-[40%];
 }
