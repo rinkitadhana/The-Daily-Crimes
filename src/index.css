@@ -53,6 +53,10 @@ html {
   display: none;
 }
 
+img {
+  @apply select-none;
+}
+
 .marquee-container {
   overflow: hidden;
   white-space: nowrap;
