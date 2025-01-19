@@ -3,14 +3,18 @@ import News from "../Components/News"
 import Top from "../Components/Top"
 import Footer from "../Components/Footer"
 import Screen from "./../Layouts/Screen"
+import Warning from "../Components/Warning"
 const Home = () => {
   return (
-    <Screen>
-      <Top />
-      <Head />
-      <News />
-      <Footer />
-    </Screen>
+    <>
+      <Warning />
+      <Screen>
+        <Top />
+        <Head />
+        <News />
+        <Footer />
+      </Screen>
+    </>
   )
 }
 
