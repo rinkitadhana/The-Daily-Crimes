@@ -1,7 +1,7 @@
 import { FaInstagramSquare, FaTwitterSquare } from "react-icons/fa"
 import { FaSquareFacebook } from "react-icons/fa6"
 import { IoGlobeSharp } from "react-icons/io5"
-import Clock from "../Tools/Clock"
+import Clock from "../utils/Clock"
 
 const Top = () => {
   const date = new Date()
@@ -34,7 +34,7 @@ const Top = () => {
     "December",
   ]
   return (
-    <div className=" text-black/90 font-Helvetica text-xs flex flex-row justify-between items-center">
+    <div className="select-none text-black/90 font-Helvetica text-xs flex flex-row justify-between items-center">
       <div className=" flex flex-col items-start">
         <span className=" text-black/75 text-base font-semibold hover:underline cursor-pointer">
           thedailycrimes@gmail.com
