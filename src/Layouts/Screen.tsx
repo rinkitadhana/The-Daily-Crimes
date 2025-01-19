@@ -25,13 +25,14 @@ const Screen: React.FC<Props> = ({ children }) => {
     timeline.fromTo(
       "#screen",
       {
-        y: 0,
+        scale: 0.4,
+        y: document.documentElement.scrollHeight * 0,
         duration: 1,
       },
       {
-        y: -1100,
+        scale: 0.4,
+        y: () => -document.documentElement.scrollHeight * 0.26,
         duration: 1,
-
         ease: "power4.out",
       }
     )
