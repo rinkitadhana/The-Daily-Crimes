@@ -15,7 +15,7 @@ const Head = () => {
           <hr className="border-t-[2px] border-black/90" />
         </div>
       </div>
-      <div className="flex flex-col gap-1 items-center pb-6">
+      <div className="flex flex-col gap-4 items-center pb-6">
         <div className=" text-8xl font-semibold font-OldLondon text-black/90">
           Daily Crimes
         </div>
