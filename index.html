@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      // Stop the browser restoring a scroll position on reload, so the
+      // intro animation always starts from the top of the page.
+      if ("scrollRestoration" in history) history.scrollRestoration = "manual"
+    </script>
     <!-- HTML Meta Tags -->
     <title>The Daily Crimes</title>
     <meta name="description" content="" />

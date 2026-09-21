@@ -1,12 +1,21 @@
 import { useGSAP } from "@gsap/react"
 import gsap from "gsap"
-import { ReactNode, useEffect } from "react"
+import { ReactNode, useEffect, useLayoutEffect } from "react"
 
 type Props = {
   children: ReactNode
 }
 
 const Screen: React.FC<Props> = ({ children }) => {
+  // Start the intro from the top, even when the browser restores a scroll
+  // position on reload. Runs before useGSAP's layout effect.
+  useLayoutEffect(() => {
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual"
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+  }, [])
+
   useEffect(() => {
     document.body.style.overflow = "hidden"
 
