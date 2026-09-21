@@ -5,10 +5,9 @@ const News2 = () => {
         <div className=" basis-1/5 text-justify border-r-2 border-zinc-700 pr-2 flex flex-col gap-2">
           <div>
             <img
-              src="/IMG/crimeGIFS/b-1.gif"
+              src="/IMG/crimeGIFS/b-1.webp"
               alt="news_img"
-              className=" object-cover"
-            />
+              className=" object-cover" width={499} height={270} decoding="async" loading="lazy" />
           </div>
           <div>
             <h1 className="text-3xl">
@@ -99,7 +98,7 @@ const News2 = () => {
                   safe and cared for, showing that their safety truly matters.
                 </p>
                 <div>
-                  <img src="/IMG/crimeGIFS/a-1.gif" className="object-cover" />
+                  <img src="/IMG/crimeGIFS/a-1.webp" className="object-cover" width={800} height={480} decoding="async" loading="lazy" />
                 </div>
                 <p>
                   The government must listen to the people when it comes to
@@ -152,10 +151,9 @@ const News2 = () => {
           <div className=" text-justify basis-2/5 border-2 border-zinc-700 p-2 flex flex-col gap-4">
             <div>
               <img
-                src="/IMG/crimeGIFS/pm.gif"
+                src="/IMG/crimeGIFS/pm.webp"
                 alt="news_img"
-                className=" object-cover grayscale"
-              />
+                className=" object-cover grayscale" width={500} height={375} decoding="async" loading="lazy" />
             </div>
             <div>
               <p>

@@ -21,31 +21,52 @@ html {
 }
 @font-face {
   font-family: "OldLondon";
-  src: url("./assets/fonts/OldLondon.ttf");
+  src: url("/fonts/OldLondon.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "TimesNewRoman";
-  src: url("./assets/fonts/times-new-roman.ttf");
+  src: url("/fonts/TimesNewRoman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Impact";
-  src: url("./assets/fonts/impact.ttf");
+  src: url("/fonts/Impact.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Canopee";
-  src: url("./assets/fonts/Canopee-regular.otf");
+  src: url("/fonts/Canopee.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "EditorialNew";
-  src: url("./assets/fonts/PPEditorialNew-Regular-BF644b214ff145f.otf");
+  src: url("/fonts/EditorialNew.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("./assets/fonts/Helvetica.ttf");
+  src: url("/fonts/Helvetica.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Arial";
-  src: url("./assets/fonts/ARIAL.TTF");
+  src: url("/fonts/Arial.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* #c3bcb2 */
@@ -108,5 +129,5 @@ h1 {
 }
 
 .screen {
-  @apply bg-[url('../public/bg/texture.jpg')] md:max-w-[1536px]  md:w-full w-[1400px] mx-auto font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800;
+  @apply bg-[url('/bg/texture.webp')] md:max-w-[1536px]  md:w-full w-[1400px] mx-auto font-EditorialNew px-4 pt-4 min-h-screen text-zinc-800;
 }

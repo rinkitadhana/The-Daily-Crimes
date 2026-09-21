@@ -79,7 +79,7 @@ const News1 = () => {
               </p>
             </div>
             <div className=" flex justify-center">
-              <img src="/IMG/crimeGIFS/a-6.gif" />
+              <img src="/IMG/crimeGIFS/a-6.webp" width={240} height={320} decoding="async" fetchPriority="high" />
             </div>
             <div>
               <p>
@@ -145,7 +145,7 @@ const News1 = () => {
         </div>
       </div>
       <div className=" flex flex-col gap-4 basis-1/2 ">
-        <img src="/IMG/crimeGIFS/a-3.gif" className="h-[500px] object-cover" />
+        <img src="/IMG/crimeGIFS/a-3.webp" className="h-[500px] object-cover" width={720} height={540} decoding="async" fetchPriority="high" />
         <div className=" flex gap-4 text-justify">
           <div className=" flex-1 flex flex-col gap-1.5">
             <div>
@@ -207,7 +207,8 @@ const News1 = () => {
               also join in these efforts to make a bigger impact. Only through
               combined action can we hope to end violence and create a safer
               world for all, where every individual feels valued, secure, and
-              free from harm.
+              free from harm, today and in the years ahead, without fear or
+              silence.
             </p>
           </div>
         </div>

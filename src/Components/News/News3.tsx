@@ -35,7 +35,7 @@ const News3 = () => {
               caught up in promises that benefit their specific area and forget
               about the larger concerns that impact the whole nation.
             </p>
-            <img src="/IMG/crimeGIFS/a-7.gif" />
+            <img src="/IMG/crimeGIFS/a-7.webp" width={500} height={472} decoding="async" loading="lazy" />
           </div>
           <div className=" flex-1 flex flex-col gap-1">
             <p>
@@ -72,7 +72,7 @@ const News3 = () => {
       </div>
       <div className=" flex-1 flex flex-col gap-2 ">
         <div>
-          <img src="/IMG/crimeGIFS/a-5.gif" alt="news_img" />
+          <img src="/IMG/crimeGIFS/a-5.webp" alt="news_img" width={500} height={273} decoding="async" loading="lazy" />
         </div>
         <div>
           <h1 className="text-3xl">
@@ -192,7 +192,7 @@ const News3 = () => {
           </div>
         </div>
         <div>
-          <img src="/IMG/crimeGIFS/a-9.webp" alt="news_img" />
+          <img src="/IMG/crimeGIFS/a-9.webp" alt="news_img" width={500} height={278} decoding="async" loading="lazy" />
         </div>
       </div>
     </div>
